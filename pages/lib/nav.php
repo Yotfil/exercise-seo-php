@@ -17,7 +17,7 @@
         </ul>
         <h1>
             <a href="/">
-                <img src="/static/img/offline.jpg" alt="img">
+
             </a>
         </h1>
     </nav>

@@ -5,15 +5,20 @@
 :root
     scrollbar
 
+input
+    +placeholder()
+        color: red
+
 // General Elements Styling
 html
-    background: color-white
+    background: bg-retina("/static/img/offline", "jpg")
     color: color-black
     font-family: font-family-default, font-family-sans
     max-width: 100vw
     min-height: 100vh
     overflow-x: hidden
     scroll-behavior: smooth
+    width: rem(777)
 
     body
         font-family: @font-family

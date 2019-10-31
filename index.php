@@ -1,5 +1,5 @@
 <?php
-$title = 'Title';
+$title = 'Title2';
 $description = 'Description';
 $keywords = 'keywords, divided, by, commas';
 
@@ -9,8 +9,13 @@ require './pages/lib/nav.php';
 
 <main>
     <section>
-        <article></article>
-        <article></article>
+        <?php
+        require './pages/lib/slider.php';
+        ?>
+        <input type="text" placeholder="askfajsjkla">
+        <div class="square">
+            <div class="square__content">asdasdasd</div>
+        </div>
     </section>
 </main>
 
